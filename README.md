@@ -1,6 +1,7 @@
 # Vibe Commerce — Mock E‑Com Cart
 
 This repository contains a small full-stack mock e-commerce shopping cart for the Vibe Commerce screening. It implements product listing, cart management, and mock checkout (no real payments). The backend uses Node/Express + SQLite for persistence; the frontend is a small React app loaded via CDN (no build required).
+![Project Screenshot](frontend\assets\Screenshot 2025-10-30 091633.png)
 
 Repository layout
 

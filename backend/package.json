@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "Mock E-Commerce backend for Vibe Commerce screening - Express + SQLite",
   "main": "index.js",
+  "homepage": "https://Anurag915.github.io/Nexora-Project",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
